@@ -12,5 +12,5 @@ jobs:
         uses: pozil/auto-assign-issue@v1
         with:
           repo-token: ${{ secrets.ISSUE_ASSIGNMENT_READORG_PAT }}
-          teams: connxio-developers
+          assignees: JonasMoltzau,shskjetne
           allowSelfAssign: true
